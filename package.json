@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "antd": "^5.5.0",
+    "react-bootstrap": "^2.7.4"
+  }
+}
