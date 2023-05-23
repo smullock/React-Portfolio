@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca2b90aa.css",
+    "main.js": "/static/js/main.85171896.js",
+    "static/media/furry-foster-home.PNG": "/static/media/furry-foster-home.afcdd72025fcb6fcdc15.PNG",
+    "static/media/Fuel-seeker-nsw.PNG": "/static/media/Fuel-seeker-nsw.618a92110525ebf6fe71.PNG",
+    "static/media/AVATAR.png": "/static/media/AVATAR.146d9ac032d8d2497dc9.png",
+    "static/media/Weather-Dashboard.PNG": "/static/media/Weather-Dashboard.4985bcb83e31b7214fcc.PNG",
+    "static/media/Workday Scheduler.PNG": "/static/media/Workday Scheduler.1234170554bfa5835eaa.PNG",
+    "static/media/github.svg": "/static/media/github.c2b6253f7bb35f6f22c0cfd50e225263.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.c11a51dc5395675c338ae20f84fcfa75.svg",
+    "static/media/stackoverflow.svg": "/static/media/stackoverflow.2aba7ef85e3eb9afbe6db9c2792d91a4.svg",
+    "index.html": "/index.html",
+    "main.ca2b90aa.css.map": "/static/css/main.ca2b90aa.css.map",
+    "main.85171896.js.map": "/static/js/main.85171896.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca2b90aa.css",
+    "static/js/main.85171896.js"
+  ]
+}
