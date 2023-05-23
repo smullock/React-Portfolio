@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.ca2b90aa.css",
-    "main.js": "/React-portfolio/static/js/main.0cd1b22b.js",
-    "static/media/furry-foster-home.PNG": "/React-portfolio/static/media/furry-foster-home.afcdd72025fcb6fcdc15.PNG",
-    "static/media/Fuel-seeker-nsw.PNG": "/React-portfolio/static/media/Fuel-seeker-nsw.618a92110525ebf6fe71.PNG",
-    "static/media/AVATAR.png": "/React-portfolio/static/media/AVATAR.146d9ac032d8d2497dc9.png",
-    "static/media/Weather-Dashboard.PNG": "/React-portfolio/static/media/Weather-Dashboard.4985bcb83e31b7214fcc.PNG",
-    "static/media/Workday Scheduler.PNG": "/React-portfolio/static/media/Workday Scheduler.1234170554bfa5835eaa.PNG",
-    "static/media/github.svg": "/React-portfolio/static/media/github.c2b6253f7bb35f6f22c0cfd50e225263.svg",
-    "static/media/linkedin.svg": "/React-portfolio/static/media/linkedin.c11a51dc5395675c338ae20f84fcfa75.svg",
-    "static/media/stackoverflow.svg": "/React-portfolio/static/media/stackoverflow.2aba7ef85e3eb9afbe6db9c2792d91a4.svg",
-    "index.html": "/React-portfolio/index.html",
-    "main.ca2b90aa.css.map": "/React-portfolio/static/css/main.ca2b90aa.css.map",
-    "main.0cd1b22b.js.map": "/React-portfolio/static/js/main.0cd1b22b.js.map"
+    "main.css": "/React-Portfolio/static/css/main.ca2b90aa.css",
+    "main.js": "/React-Portfolio/static/js/main.f390e975.js",
+    "static/media/furry-foster-home.PNG": "/React-Portfolio/static/media/furry-foster-home.afcdd72025fcb6fcdc15.PNG",
+    "static/media/Fuel-seeker-nsw.PNG": "/React-Portfolio/static/media/Fuel-seeker-nsw.618a92110525ebf6fe71.PNG",
+    "static/media/AVATAR.png": "/React-Portfolio/static/media/AVATAR.146d9ac032d8d2497dc9.png",
+    "static/media/Weather-Dashboard.PNG": "/React-Portfolio/static/media/Weather-Dashboard.4985bcb83e31b7214fcc.PNG",
+    "static/media/Workday Scheduler.PNG": "/React-Portfolio/static/media/Workday Scheduler.1234170554bfa5835eaa.PNG",
+    "static/media/github.svg": "/React-Portfolio/static/media/github.c2b6253f7bb35f6f22c0cfd50e225263.svg",
+    "static/media/linkedin.svg": "/React-Portfolio/static/media/linkedin.c11a51dc5395675c338ae20f84fcfa75.svg",
+    "static/media/stackoverflow.svg": "/React-Portfolio/static/media/stackoverflow.2aba7ef85e3eb9afbe6db9c2792d91a4.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.ca2b90aa.css.map": "/React-Portfolio/static/css/main.ca2b90aa.css.map",
+    "main.f390e975.js.map": "/React-Portfolio/static/js/main.f390e975.js.map"
   },
   "entrypoints": [
     "static/css/main.ca2b90aa.css",
-    "static/js/main.0cd1b22b.js"
+    "static/js/main.f390e975.js"
   ]
 }
