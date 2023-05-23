@@ -5,11 +5,10 @@ function AboutMe() {
   return (
    
    <>
-    <div className = "AboutMe"> About me</div>
-
+    <div className = "AboutMe">
+    <h2 className="top-title">About Me</h2>
     
-        <h2>Lorem Ipsum Dolor Sit Amet</h2>
-        
+    <img src={profileimg} alt= 'Profile Image'/>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -20,9 +19,9 @@ function AboutMe() {
           mollit anim id est laborum.
         </p>
 
-        <img src={profileimg} alt= 'Profile Image'/>
+        
        
-   
+        </div>
     </>
   )
 }

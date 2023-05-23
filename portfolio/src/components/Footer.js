@@ -12,13 +12,13 @@ function Footer() {
     <>
 
 
-    <span className="navbar-text">
+    <footer className="footer bg-dark">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/smullock"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/sarah-mullock"><img src={navIcon2} alt="" /></a>
+                <a href="https://stackoverflow.com/users/21945839/sarah-mullock"><img src={navIcon3} alt="" /></a>
               </div>
-            </span>
+            </footer>
    </>
   )
 }

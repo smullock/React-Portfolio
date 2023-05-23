@@ -1,33 +1,31 @@
-import React from 'react'
-import '../styles/Navigation.css';
-import {Navbar, Nav, Container} from 'react-bootstrap';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-
-  function Navigation() {
-
-    const [activeLink, setActiveLink] = useState('AboutMe');
-
-    const onUpdateActiveLink = (value)=> {
-      setActiveLink(value);
-    }
-
+function Navigation({ onSectionChange }){
+    const sections = ['About Me', 'Projects', 'Contact', 'Resume'];
+    const [selectedSection, setSelectedSection] = useState(sections[0]);
+    
+    const handleClick = (section) => {
+        setSelectedSection(section);
+        onSectionChange(section);
+    };
+    
     return (
-
-      <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-            <Nav className="me-auto">
-            <Nav.Link href="#aboutMe" className={activeLink === 'aboutMe' ? 'active-navbar_link' : 'navbar-link'} onClick ={()=> onUpdateActiveLink('aboutMe')}>About Me</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active-navbar_link' : 'navbar-link'}onClick ={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link href="#contacts" className={activeLink === 'contacts' ? 'active-navbar_link' : 'navbar-link'}onClick ={()=> onUpdateActiveLink('contacts')}>Contacts</Nav.Link>
-            <Nav.Link href="#resume"  className={activeLink === 'resume' ? 'active-navbar_link' : 'navbar-link'}onClick ={()=> onUpdateActiveLink('resume')}>Resume</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-          </>
-  );
+    <nav className='d-flex align-items-center justify-content-center m-0 p-0'>
+        <ul className='d-flex align-items-center justify-content-center m-0 p-0 flex-wrap'>
+        {sections.map((section) => (
+            <ul className="p-0 p-1 pb-2" key={section}>
+            <button type="button" data-bs-toggle="button"
+                className={`btn btn-outline-success ${selectedSection === section ? 'active' : ''}`}
+                aria-pressed={selectedSection === section ? 'true' : 'false'}
+                onClick={() => handleClick(section)}
+            >
+                {section}
+            </button>
+            </ul>
+        ))}
+        </ul>
+    </nav>
+    );
 }
-
 
 export default Navigation
